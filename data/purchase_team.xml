@@ -1,0 +1,6 @@
+<odoo>
+    <record id="purchase_team_1" model="purchase.team">
+        <field name="name">Team A</field>
+        <field name="user_id" eval="[(4, ref('base.user_admin'))]"/>
+    </record>
+</odoo>
